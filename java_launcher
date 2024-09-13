@@ -76,4 +76,4 @@ fi
 
 # Run the program, passing on arguments from command line.
 export CLASSPATH=$CLASS_DIR:$CLASSPATH
-java -Xmx1024m $CLASS_NAME $*
+exec java -Xmx1024m $CLASS_NAME $*
